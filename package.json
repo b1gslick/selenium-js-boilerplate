@@ -1,0 +1,17 @@
+{
+  "name": "selenium-js-boilerplate",
+  "version": "1.0.0",
+  "description": "It's simple boilerplate for selenium and js",
+  "repository": "git@github.com:b1gslick/selenium-js-boilerplate.git",
+  "author": "s.timokhin",
+  "license": "MIT",
+  "private": false,
+  "type": "module",
+  "scripts": {
+    "test": "mocha --timeouts 240000 specs"
+  },
+  "dependencies": {
+    "mocha": "^10.4.0",
+    "selenium-webdriver": "^4.21.0"
+  }
+}
